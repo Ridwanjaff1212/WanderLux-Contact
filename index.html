@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+    <h1>Contact WanderLux</h1>
+</header>
+<main>
+    <section class="contact-info">
+        <p>Have any questions, feedback, or travel stories to share? Reach out to us via the form below or directly at:</p>
+        <p><strong>Email:</strong> <a href="mailto:wanderluxcontact@gmail.com">wanderluxcontact@gmail.com</a></p>
+    </section>
+    <section class="contact-form">
+        <h2>Get in Touch</h2>
+        <form id="contactForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" placeholder="Your message" rows="6" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="responseMessage" class="response-message"></div>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 WanderLux. We look forward to hearing from you!</p>
+</footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
